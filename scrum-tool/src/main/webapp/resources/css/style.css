@@ -1,0 +1,136 @@
+@CHARSET "UTF-8";
+@font-face {
+	font-family: 'Roboto';
+	font-style: normal;
+	font-weight: 400;
+	src: local('Roboto'), local('Roboto-Regular'),
+		url(http://fonts.gstatic.com/s/roboto/v15/CWB0XYA8bzo0kSThX0UTuA.woff2)
+		format('woff2'),
+		url(http://fonts.gstatic.com/s/roboto/v15/2UX7WLTfW3W8TclTUvlFyQ.woff)
+		format('woff');
+}
+
+html, body {
+	height: 100%;
+}
+
+.panel > .panel-heading {
+    background: linear-gradient(0deg, black, gray);
+
+}
+
+.panel-primary{
+/* 	background:black; */
+	border-color: black;
+	background-color: ;
+}
+.panel-heading{
+	background-color: black;
+}
+/* .panel{ */
+/* 	background-color: black; */
+/* } */
+
+body {
+	background: #F3F3F4;
+	background: url(polygon.jpg) no-repeat fixed; 
+   -webkit-background-size: cover;
+     background-size: cover;
+}
+
+.middle-box {
+	width: 350px;
+	margin: 0 auto;
+	margin-top: 10%;
+	font-family: Roboto;
+}
+
+.btn-custom-color {
+	background: #1AB394;
+}
+
+.btn-custom-color:hover {
+	background: #18A689;
+}
+
+.wrapper {
+	height: 100%;
+	min-height: 100%;
+}
+
+.padding-container{
+	margin-top:20px;
+}
+
+.navbar-custom{
+	background-color:#18A689;
+	border-color: #1AB394;
+	border-radius: 0px;
+	box-shadow: 0 6px 5px -5px #1AB394;
+}
+
+.navbar-default .navbar-brand {
+    color: #FFF;
+}
+
+.navbar-default .navbar-brand:hover {
+    color: #FFF;
+}
+
+.navbar-default .navbar-nav > li > a:hover,
+.navbar-default .navbar-nav > li > a:focus {
+    font-weight: bolder;
+    color:#FFF;
+    background: #1AB394;
+}
+
+.navbar-default .navbar-nav > li > a {
+    color: #FFF;
+}
+
+.navbar-default .navbar-nav > .active > a, 
+.navbar-default .navbar-nav > .active > a:hover, 
+.navbar-default .navbar-nav > .active > a:focus {
+    color:#FFF;
+    background: #1AB394;
+}
+
+.kanban_dragdrop{
+
+	margin-top: 20px;
+
+	
+}
+
+.title_status{
+	text-align: center;
+	margin-right:10px;
+}
+
+.task_list{
+	margin-right:10px;
+	overflow-y:scroll;
+	overflow-x: hidden; 
+	
+}
+
+.post-it{
+	margin-top:10px;
+	background-color:rgba(250,250,250,1);
+	border-radius: 12px;
+	//border-style: dotted;
+	border-width: 1px;
+	border-color: grey; 
+	box-shadow: 1px 1px 5px rgba(0,0,0,0.8);
+	//cursor: move;
+	
+}
+
+.scrumMaster{
+	background-color: black;
+}
+
+
+/* .panel-dark > .panel-primary  { */
+/* 	border-color: #000; */
+/* } */

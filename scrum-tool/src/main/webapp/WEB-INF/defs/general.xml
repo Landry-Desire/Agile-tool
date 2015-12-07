@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+ 
+<!DOCTYPE tiles-definitions PUBLIC "-//Apache Software Foundation//DTD Tiles Configuration 3.0//EN" "http://tiles.apache.org/dtds/tiles-config_3_0.dtd">
+ 
+<tiles-definitions>
+
+    <definition name="common" template="/WEB-INF/layouts/classic.jsp">
+        <put-attribute name="footer" value="/WEB-INF/layouts/footer.jsp" />
+        <put-attribute name="assets" value="/WEB-INF/layouts/assets.jsp" />
+    </definition>
+    
+     <definition name="listtask" extends="common">
+         <put-attribute name="title" value="Scrum Tool - Home page" />
+    	 <put-attribute name="body" value="/WEB-INF/jsp/listtask.jsp" />
+    	 <put-attribute name="current" value="index"></put-attribute>
+    </definition>
+    
+      <definition name="back" extends="common">
+         <put-attribute name="title" value="Scrum Tool - Home page" />
+    	 <put-attribute name="body" value="/WEB-INF/jsp/task.jsp" />
+    	 <put-attribute name="current" value="index"></put-attribute>
+    </definition>
+    
+    <definition name="addtask" extends="common">
+         <put-attribute name="title" value="Scrum Tool - Home page" />
+    	 <put-attribute name="body" value="/WEB-INF/jsp/addtask.jsp" />
+    	 <put-attribute name="current" value="index"></put-attribute>
+    </definition>
+    
+    <definition name="backlog" extends="common">
+         <put-attribute name="title" value="Scrum Tool - Home page" />
+    	 <put-attribute name="body" value="/WEB-INF/jsp/backlog.jsp" />
+    	 <put-attribute name="current" value="index"></put-attribute>
+    </definition>
+    
+    <definition name="scrumteam" extends="common">
+         <put-attribute name="title" value="Scrum Tool - Home page" />
+    	 <put-attribute name="body" value="/WEB-INF/jsp/scrumteam.jsp" />
+    	 <put-attribute name="current" value="index"></put-attribute>
+    </definition>
+    
+    <definition name="add" extends="common">
+         <put-attribute name="title" value="Scrum Tool - Home page" />
+    	 <put-attribute name="body" value="/WEB-INF/jsp/add.jsp" />
+    	 <put-attribute name="current" value="index"></put-attribute>
+    </definition>
+    
+    <definition name="edit" extends="common">
+         <put-attribute name="title" value="Scrum Tool - Home page" />
+    	 <put-attribute name="body" value="/WEB-INF/jsp/edit.jsp" />
+    	 <put-attribute name="current" value="index"></put-attribute>
+    </definition>
+    
+    <definition name="home" extends="common">
+         <put-attribute name="title" value="Scrum Tool - Home page" />
+    	 <put-attribute name="body" value="/WEB-INF/jsp/home.jsp" />
+    	 <put-attribute name="current" value="index"></put-attribute>
+    </definition>
+    
+    <definition name="login" extends="common">
+         <put-attribute name="title" value="Login" />
+    	 <put-attribute name="body" value="/WEB-INF/jsp/login.jsp" />
+    	 <put-attribute name="current" value="index"></put-attribute>
+    </definition>
+    
+    <definition name="register" extends="common">
+         <put-attribute name="title" value="Register" />
+    	 <put-attribute name="body" value="/WEB-INF/jsp/register.jsp" />
+    	 <put-attribute name="current" value="index"></put-attribute>
+    </definition>
+    
+    <definition name="board" extends="common">
+         <put-attribute name="title" value="Dashboard - Scrum Master" />
+    	 <put-attribute name="body" value="/WEB-INF/jsp/board.jsp" />
+    	 <put-attribute name="current" value="index"></put-attribute>
+    </definition>
+    
+    <definition name="burndownChart" extends="common">
+         <put-attribute name="title" value="The Burndown Chart" />
+    	 <put-attribute name="body" value="/WEB-INF/jsp/burndownChart.jsp" />
+    	 <put-attribute name="current" value="index"></put-attribute>
+    </definition>
+    
+     <definition name="kanban" extends="common">
+         <put-attribute name="title" value="Kanban" />
+    	 <put-attribute name="body" value="/WEB-INF/jsp/kanban.jsp" />
+    	 <put-attribute name="current" value="index"></put-attribute>
+    </definition>
+    
+    <definition name="managementSprint" extends="common">
+         <put-attribute name="title" value="Management Sprint" />
+    	 <put-attribute name="body" value="/WEB-INF/jsp/managementSprint.jsp" />
+    	 <put-attribute name="current" value="index"></put-attribute>
+    </definition>
+    
+    <definition name="managementTeam" extends="common">
+         <put-attribute name="title" value="Management Sprint" />
+    	 <put-attribute name="body" value="/WEB-INF/jsp/managementTeam.jsp" />
+    	 <put-attribute name="current" value="index"></put-attribute>
+    </definition>
+    
+	<definition name="github" extends="common">
+         <put-attribute name="title" value="Dashboard - Scrum Master" />
+    	 <put-attribute name="body" value="/WEB-INF/jsp/github.jsp" />
+    	 <put-attribute name="current" value="index"></put-attribute>
+    </definition>
+    
+     
+	<definition name="commits" extends="common">
+         <put-attribute name="title" value="Dashboard - Scrum Master" />
+    	 <put-attribute name="body" value="/WEB-INF/jsp/commits.jsp" />
+    	 <put-attribute name="current" value="index"></put-attribute>
+    </definition>
+    
+</tiles-definitions>
